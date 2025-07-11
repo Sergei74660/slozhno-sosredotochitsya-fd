@@ -3,89 +3,19 @@
   и их переопределение под различные устройства
 */
 :root {
-  /* --background-image: url(../images/cover-image-dark.png);
+  --main-font-family: 'IBM Plex Mono', sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --line-height-text: 18px;
+  --decorated-gap: 20px;
+  --main-gap: 10px;
   --bg-color: #000028;
-  --subtitle-color: #000028;
-  --title-color: #db00ff;
-  --accent-color: #ff0070;
-  --title-shadow-color: #ff0070;
-  --decorated-color: #ff0070;
-  --section-text-color: var(--accent-color);
-  --button-color: var(--accent-color);
-  --text-color: #f1b2ce;
-  --main-font-family: "IBM Plex Mono", "monospace";
-  --main-font-size: 18px;
-  --main-font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --font-size-standart: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ; */
-
-
-
-
-
-/* /*   
-  --accent-color: #ff0070;              
-  --title: var(--accent-color);         
-  --background-color: #000028;           
-  --bg-color: var(--background-color);   
-  --text-color: #f1b2ce;                 
-  --main-text-color: var(--text-color);  
-  --subtitle-color: #000028;            
-  --text: var(--subtitle-color);       
-  --title-color: #db00ff;               
-  --title-shadow: #ff0070;               
-  --title-shadow-color: var(--title-shadow); 
-  --decorated-color: var(--accent-color);    
-  --corners-color: var(--accent-color);      
-  --border-color: var(--accent-color);       
-  --link-shadow: var(--accent-color);        
-  --rec-color: var(--accent-color);          
-  --hover-color: 1px solid rgba(255, 0, 112, 0.4); 
-  --main-font-family: "IBM Plex Mono", monospace;
-  --main-font: var(--main-font-family); 
-  --main-font-size: 18px;                   
-  --main-font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem); 
-  --font-size-standart: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
-  --background-image: url(../images/cover-image-dark.png);  */
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-.page.theme_light {
-  --title: #353430;
-  --main-text-color: #353430;
-  --title-color: #FFC2E6;
-  --background-title-color: #FF8DCB;
-  --title-shadow: #ff0070;
-  --text: #353430;
-  --hover-color: 1px solid rgba(50, 49, 45, 0.4);
-  --background-color: #FFF1F7;
-  --background-image: url(../images/cover-image-light.png);
-  --border-color: #353430;
-  --corners-color: #353430;
-  --link-shadow: #FFC2E6;
-  --rec-color: #FFF1F7;
+  --title-color: #DB00FF;
+  --paragraph-bg-color: #FF0070;
+  --accent-color: #FF0070;
+  --accent-color-hover: rgba(255, 0, 112, 0.4);
+  --accent-color-button-hover: rgba(255, 0, 112, 0.4);
+  --main-title-color: #FF0070;
+  --description-text-color: #F1B2CE;
+  --second-title-color: #000028; 
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --title: #353430;
-    --main-text-color: #353430;
-    --title-color: #FFC2E6;
-    --background-title-color: #FF8DCB;
-    --title-shadow: #ff0070;
-    --text: #353430;
-    --hover-color: 1px solid rgba(50, 49, 45, 0.4);
-    --background-color: #FFF1F7;
-    --background-image: url(../images/cover-image-light.png);
-    --border-color: var(--title);
-    --corners-color: var(--main-text-color);
-    --link-shadow: var(--title-color);
-    --rec-color: var(--background-color);
-  }
-}
-
-.page.theme_light .header__rec {
-  display: none;
-}
-} 

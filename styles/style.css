@@ -104,6 +104,7 @@
   color: var(--accent-color);
   padding-inline: 13px;
   padding-block-end: 5px;
+  border: none; 
 }
 
 .header__theme-menu-button:focus {
@@ -118,7 +119,7 @@
   display: grid;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   text-shadow: 4px 4px 0 var(--paragraph-bg-color);
-  color: var(--h1-title-color);
+  color: var(--title-color);
   line-height: 95.7px;
 }
 
@@ -239,12 +240,12 @@
   display: grid;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   text-shadow: 2px 2px 0 var(--paragraph-bg-color);
-  color: var(--h1-title-color);
+  color: var(--title-color);
   line-height: 95.7px;
 }
 
 
-@media (width >= 768px) {
+@media (min-width: 768px) {
 
   .header {
     min-height: 1024px;
@@ -359,7 +360,7 @@
   }
 }
 
-@media (width >= 1024px) {
+@media (min-width: 1024px) {
   .header {
     min-height: 768px;
   }
