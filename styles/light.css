@@ -33,7 +33,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;
-    --h1-title-color: #FFC2E6;
+    --title-color: #FFC2E6;
     --paragraph-bg-color: #FF8DCB;
     --accent-color: #353430;
     --accent-color-hover: rgba(255, 141, 203, 0.4);
