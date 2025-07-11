@@ -20,7 +20,7 @@
   grid-template-rows: 1fr auto 1fr;
   position: relative;
   padding: var(--main-gap);
-  height: 100vh;     
+  height: 100vh;
   min-height: 668px;
 }
 
@@ -114,7 +114,7 @@
   border-block-end: 1px solid var(--accent-color);
 }
 
-.main-title  {
+.main-title {
   display: grid;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   text-shadow: 4px 4px 0 var(--paragraph-bg-color);
@@ -152,7 +152,6 @@
 }
 
 .minor-title {
-  font-size: var(--line-height-text);
   font-size: var(--line-height-text);
   line-height: 23.4px;
   font-weight: var(--font-weight-bold);
@@ -231,7 +230,7 @@
   position: relative;
   align-content: center;
   justify-content: center;
-  height: 100vh;     
+  height: 100vh;
   min-height: 668px;
   padding: var(--main-gap);
 }
@@ -398,7 +397,7 @@
     grid-template-rows: fit-content 1fr;
   }
 
-  .section-causes .card:first-of-type{
+  .section-causes .card:first-of-type {
     grid-column: 1/2;
   }
 
