@@ -226,7 +226,6 @@
 .gallery {
   display: grid;
   gap: 10px;
-  margin-top: -5px;
   height: fit-content;
   justify-content: center;
 }
